@@ -1,6 +1,17 @@
-h1 {
+.title {
 
 font-size: 72pt;
 color: blue;
 
 }
+
+a::before {
+    content:'';
+    display:block;
+}
+
+img::before {
+    content:'';
+    display:block;
+}
+
